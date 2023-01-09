@@ -4,6 +4,14 @@
     box-sizing: border-box;
 }
 
+a{
+	text-decoration: none;
+    font-size: 16px;
+    line-height: 18px;
+    color: #FFFFFF;
+    line-height: 18px;
+}
+
 header{
     height: 387.56px;
     background-color: #0020F4;
@@ -14,7 +22,11 @@ ul{
     list-style: none;
 }
 
-nav, nav ul {
+nav, .logo{
+    vertical-align: middle;
+}
+
+nav, nav ul{
     display: inline-block;	
 }
 
@@ -31,32 +43,30 @@ nav li{
     line-height: 19px;
 }
 
-a{
-	text-decoration: none;
-    font-size: 16px;
-    line-height: 18px;
-    color: #FFFFFF;
-    line-height: 18px;
-}
-
-header img{
+.logo{
     width: 115px;
     margin: 40px auto;
-    vertical-align: middle;
 }
 
 main img{
     height: 600px;
     border-radius: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-h1{
+main h1{
     font-size: 28px;
     color: #171717;
     line-height: 34px;
+    width: 714px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .buildings img{
+    display: inline-block;
     border-radius: 15px;
     height: 219px;
     margin: 60px 25px;
@@ -67,6 +77,13 @@ main p{
     color: #171717;
     line-height: 26px;
     margin-bottom: 18px;
+    width: 951px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.par{
+    margin-bottom: 58px;
 }
 
 .add{
@@ -75,6 +92,7 @@ main p{
     border-radius: 28px;
     padding: 18px 77px;
     background-color: #0A22F4;
+    
 }
 
 footer{
@@ -87,13 +105,21 @@ footer h1{
     line-height: 39px;
 }
 
-.cont p{
+.foot p{
+    font-size: 13px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.fcontact p{
     font-size: 16px;
     color: #FFFFFF;
     line-height: 26px;
+
 }
 
 footer iframe{
     border-radius: 15px;
     height: 197px;
 }
+
